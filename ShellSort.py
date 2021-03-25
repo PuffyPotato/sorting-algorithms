@@ -12,9 +12,6 @@ def ShellSort(list):
             list[j] = tmp
         gap = gap//2
 
-a = [int(i) for i in input().split()]
-ShellSort(a)
-print(a)
 
 
     

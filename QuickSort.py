@@ -17,13 +17,6 @@ def QuickSort(list, start, end):
         QuickSort(list, start, j)
 
 
-lista = [int(i) for i in input().split()]
-
-print(lista)
-QuickSort(lista, 0, len(lista)-1)
-print(lista)
-
-
 
 
 

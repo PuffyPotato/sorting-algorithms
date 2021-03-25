@@ -11,9 +11,3 @@ def BubbleSort(list):
                 break
 
 
-f = open('tests/A/100.in')
-lista = [int(i) for i in f]
-
-BubbleSort(lista)
-print(lista)
-
